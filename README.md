@@ -1,16 +1,23 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🧮 React Counter App (useState Example)
 
-Currently, two official plugins are available:
+This is a simple React project that demonstrates the concept of **State Management** using the **useState Hook**.  
+It allows users to increment and decrement a counter value dynamically, as well as adjust the increment step.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Displays the current count value  
+- Increment or decrement the count  
+- Adjust the step value (increment by 1, 2, 3, etc.)  
+- Reactively updates the UI when state changes  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧠 Concepts Covered
+
+- **React Functional Components**  
+- **useState Hook** for managing component state  
+- **Event Handling** in React (onClick)  
+- **Dynamic Rendering** based on state values  
